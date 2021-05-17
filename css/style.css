@@ -501,7 +501,13 @@ a {
         .site-mobile-menu .site-nav-wrap[data-class="social"] > li:first-child a {
           padding-left: 15px !important; }
 
- 
+.icons-viber{
+  fill: rgba(255, 255, 255, 0.5);
+  margin-top: -5px; }
+.icons-viber:hover{
+  fill: #fff;
+ }
+          
 @media (max-width: 768px) {
   .site-mobile-menu .site-nav-wrap[data-class="social"] {
     display: flex;
@@ -515,7 +521,17 @@ a {
    .site-mobile-menu .site-nav-wrap[data-class="social"] > li span{
       font-size:50px ;
     } 
+    .icons-viber{
+      fill: #000;
+      margin-top: 0px;
+      width: 60px;
+      height: 60px;
+  }
+  .icons-viber:hover, .icons-viber:active{
+    fill: #20c997;
+  }
 }
+
 
 /*media*/
 
