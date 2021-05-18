@@ -120,14 +120,14 @@
               <div class="row form-group">
                 <div class="col-md-12">
                   <label class="text-white" for="fname">Ваше имя</label>
-                  <input type="text" id="fname" class="form-control">
+                  <input type="text" id="fname" class="form-control" pattern="[a-zA-Zа-яА-ЯёЁ ]+">
                 </div>
               </div>
 
               <div class="row form-group">
                 <div class="col-md-12">
                   <label class="text-white" for="email">Телефон</label> 
-                  <input type="tel" id="tel" class="form-control">
+                  <input type="tel" id="phone" class="form-control">
                 </div>
               </div>
 
@@ -198,7 +198,7 @@
   <script src="js/jquery.mousewheel.min.js"></script>
 
   <script src="js/main.js"></script>
-  
+  <script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.min.js"></script>
   <script>
     $(document).ready(function(){
       $('#lightgallery').lightGallery();
