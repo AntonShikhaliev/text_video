@@ -532,6 +532,7 @@ a {
   }
 }
 
+
 .pric{
   font-size: 20px;
   color: #20c997;
@@ -1315,4 +1316,16 @@ a {
   .btn_pozishen{
     display: block;
   }
- }
+  
+}
+ @media (max-width: 330px){
+  .site-mobile-menu .site-nav-wrap a {
+    padding: 10px;}
+
+    .image-info_text {
+      font-size: 30px;
+  }
+  .image-wrap-2 .image-info {
+    top: 60%;
+  }
+}
