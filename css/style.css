@@ -1275,11 +1275,13 @@ a {
   color: #20c997;
 }
 
+
 @media ( max-width: 1331px){
   .image-info_text{
     font-size: 30px;
   }
 }
+
 
 
 @media ( max-width: 991.98px){
@@ -1292,11 +1294,7 @@ a {
   }
 }
 
-@media (max-width: 330px){
-  .image-info_text {
-    font-size: 28px;
-  }
-}
+
 
 .swiper-button-prev,
 .swiper-container-rtl .swiper-button-next {
@@ -1364,7 +1362,7 @@ a {
     padding: 10px;}
 
     .image-info_text {
-      font-size: 30px;
+      font-size: 28px;
   }
   .image-wrap-2 .image-info {
     top: 60%;
