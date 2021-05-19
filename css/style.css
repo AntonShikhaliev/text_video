@@ -99,7 +99,7 @@ a {
   @media (min-width: 768px) {
     .site-section-heading {
       font-size: 4rem; } }
-  .site-section-heading:after {
+  /* .site-section-heading:after {
     content: "";
     left: 0%;
     bottom: 0;
@@ -118,7 +118,7 @@ a {
     position: absolute;
     width: 100px;
     height: 1px;
-    background: #000; }
+    background: #000; } */
 
 .border-top {
   border-top: 1px solid #edf0f5 !important; }
@@ -527,7 +527,7 @@ a {
 
 
 .pric{
-  font-size: 20px;
+  font-size: 30px;
   color: #20c997;
 }
 
@@ -538,7 +538,7 @@ a {
 
 /*media*/
 .mob-mt{
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 
 
