@@ -1293,8 +1293,16 @@ a {
     font-size: 20px;
   }
 }
-
-
+@media ( max-width: 420px){
+  .image-info_text {
+  font-size: 28px;
+  }
+}
+@media ( max-width: 330px){
+  .image-info_text {
+  font-size: 25px;
+  }
+}
 
 .swiper-button-prev,
 .swiper-container-rtl .swiper-button-next {
@@ -1357,13 +1365,12 @@ a {
   }
 
 }
+
  @media (max-width: 330px){
   .site-mobile-menu .site-nav-wrap a {
     padding: 10px;}
 
-    .image-info_text {
-      font-size: 28px;
-  }
+ 
   .image-wrap-2 .image-info {
     top: 60%;
   }
