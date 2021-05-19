@@ -1292,6 +1292,11 @@ a {
   }
 }
 
+@media (max-width: 330px){
+  .image-info_text {
+    font-size: 28px;
+  }
+}
 
 .swiper-button-prev,
 .swiper-container-rtl .swiper-button-next {
