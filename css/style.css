@@ -1353,6 +1353,10 @@ a {
 
 
 
+.mb-8{
+  margin-bottom: 3.5rem !important;
+  }
+
 .btn_pozishen{
   border-radius: 10px;
   margin-top: 50px;
